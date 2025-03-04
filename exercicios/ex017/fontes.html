@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+
+            16px gernalmente = 1em
+            As medidas oficialmente recomendadas pela W3C é a "px" e o "em"
+            */
+            /*font-size: 16px;
+            font-weight: bolder; /*Peso da fonte*/
+            /*font-style: italic; /*fonte italico*/
+            /*text-decoration: underline;*/
+            /*Sublinhado*/
+            /*font-weight Pode ser representado com números de 100 à 900. ou por: lighter, normal, bold, bolder*/
+            /*font-weight indica o peso da fonte */
+        }
+
+        h1{
+            /*font-family: 'work sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            
+            no lugar de todas essas fonts. Eu posso usar o d ebaixo colocando só uma font: e as tags*/
+
+            /*shorthand font
+            - font-style -> font-weight -> font-size -> font-family*/
+
+            font: italic bolder 3em 'work sans', sans-serif;
+        }
+        h2{
+            font: bold 2em 'work sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus qui modi, eius iusto dolore voluptate voluptates earum, perspiciatis veniam cum incidunt ullam animi molestiae architecto quidem molestias temporibus recusandae libero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi alias a impedit laborum vel sapiente velit nulla eveniet. Quae, earum quod repellendus eos esse enim. Voluptatibus ea provident labore maiores!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, repellat vitae amet consequatur inventore libero dicta minima, ea quibusdam ratione voluptas doloremque, eligendi nobis reiciendis molestias omnis quos officia repellendus!</p>
+
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto soluta laborum mollitia porro natus! Cupiditate tempore ipsam pariatur, officia ut consequuntur repellat repellendus saepe eius voluptatibus repudiandae dicta sapiente sed.</p>
+   
+</body>
+</html>

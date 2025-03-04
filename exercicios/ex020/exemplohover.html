@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+            color: white;
+            background-color: brown;
+            width: 500px;
+        }
+        div{
+            border: 2px solid black;
+            color: brown;
+            width: 500px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>EXEMPLO HOVER</h1>
+    <p>Ao clicar no texto abaixo, aparecerá o texto escondido</p>
+    <div>
+        clique aqui
+        <p>Alex e Luana</p>
+    </div>
+    fim
+</body>
+</html>

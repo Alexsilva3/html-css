@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+</head>
+<body>
+    <h1>Teste de Tamanho de imagem</h1>
+    <p>
+        olha a imagem abaixo:
+    </p>
+
+    <picture>
+        <source media="(max-width:550px)" srcset="pequeno.jpeg" type="image/jpeg">
+        <source media="(max-width:750px)" srcset="media.jpeg" type="image/jpeg">
+        <source media="(max-width:950px)" srcset="grande.jpeg" type="image/jpeg">
+        <img src="enorme.jpeg" alt="imagem grande">
+    </picture>
+</body>
+</html>

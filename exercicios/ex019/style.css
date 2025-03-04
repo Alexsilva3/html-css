@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body{
+    background-color: #4f5e519d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: #1A331C;
+}
+/*esse é o H1 identificado (id)...(h1#principal) eu posso colocar outras configurações nele*/
+
+/*tudo em HTML é id = CSS é # serquilha (pode só um elemento)
+tudo em HTML é class = CSS é um PONTO . (pode varios elementos)*/
+h1#principal{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #233425;
+}
+h2{
+    color: #1A331C;
+}
+h1{
+    color: #1A331C;
+}
+/*dentro de um mesmo documento HTML só pode ter um Identificador (id) regra da w3c*/
+
+/*class pode usar multiplos. Se for usar a mesma configuração em mais de uma teg H, usa class.*/
+/*não dê nome as classes (class)*/
+
+.basico{
+    color: forestgreen;
+    font-weight: bold;
+}
+.intermediario{
+    color: rgb(139, 137, 34);
+}
+.avancado{
+    color: rgb(139, 34, 34);
+}
+.destaque{
+    background-color: rgba(104, 100, 16, 0.304);
+}
+
+/* a tag '<span>' é para para colocar alguma palavra ou frase do meio do texto na mesma classe de configuração*/
+
+/*posso colocar varias class em uma mesma tag class ou ID... colocar mais de uma class em um elemento*/

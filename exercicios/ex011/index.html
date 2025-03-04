@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinaminamica</h1>
+    <p>
+        Tente abrir esse site em vários dispositivos diferentes, ou simplesmente aumente e diminua o tamanho do seu navegador.
+    </p>
+
+    <picture>
+        <source media="(max-width:600px)" srcset="imagem/foto-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagem/foto-m.png" type="image/png">
+        <img src="imagem/foto-g.png" alt="imagem flexível">
+    </picture>
+    <!--a tag <picture> e <img> é usado para mostrar imgaens de pixels diferentes de acordo com o tamanho da tela do aparelho (celular, tablet, computador, ou até mesmo TV)-->
+
+    <!--a tag <source media type> coloca a condição do tamanho da imgem, mostrar até um tamanho, menor mostra a outra imagem menor-->
+
+    <!--para colocar audio, imagens etc... dentro das aspas e só precionar CTRIL+ ESPAÇO -->
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <!--Maneira mais simples para colocar áudio no site-->
+    <audio src="midia/Gemini  The Soundlings.mp3"controls autoplay></audio>
+    <!-- formatos que o navegador aceita MP3, WAV OGG-->
+
+    <p>Outra maneira de reproduzir áudios em HTML5</p>
+    <audio preload="auto" autoplay controls loop>
+        <source src="midia/Gemini  The Soundlings.mp3" type="audio/mp3">
+        <source src="midia/Gemini  The Soundlings.ogg" type="audio/ogg">
+        <source src="midia/Gemini  The Soundlings.wav" type="audio/wav">
+        <p>Infelismente o seu navegador não consegue reproduzir o áudio. <a href="midia/Gemini  The Soundlings.mp3">clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+
+</body>
+</html>

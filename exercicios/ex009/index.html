@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="1" start="5"> <!--tag type é o tipo da lista. E a tag start(alfanúmerico), é de onde eu quero que comece a contar-->
+        <li>Acordar</li>
+        <li>Orar</li>
+        <li>Meditar</li>
+        <li>Tomar banho</li>
+        <li>Tomar Café</li>
+        <li>Limpar a igreja</li>
+        <li>Preparar para reunião de Prs</li>
+    </ol> <!--a tag ol é para fazer listas, e a tag li, deve ser usada dentro da tag ol.E é para organizar a listas de forma númerica, mesmo quando ela é alterada, permanece em ordem.-->
+    <h2>Listas não ordenadas</h2>
+    <ul type="desc"> <!--a tag ul é usado para listas não ordenadas / tipos: desc, circle, square-->
+        <li>Pão</li> <!--li é p/ fazer listas-->
+        <li>Leite</li>
+        <li>Café</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+        <li>Carne</li>
+    </ul>
+    <h2>Minhas comidas favoritas</h2>
+    <ol>
+        <li>salgadas</li>
+        <ol type="a">
+            <li>Peixe</li>
+            <li>Cupim</li>
+            <li>Mandioca Frita</li>
+            <li>Batata</li>
+        </ol>
+        <li>Doces</li>
+        <ol type="a" start="5"> <!--start uma tag alfanúmerico de onde vai começar-->
+            <li>Gelatina</li>
+            <li>Doce de leite</li>
+            <li>Sorvete de banana natural</li>
+            <li>Cajuzinho</li>
+        </ol>
+    </ol>
+    <h2>Livros que te ajudarão da fé</h2>
+    <ol>
+        <li>Bispo Macedo</li>
+        <ul type="square"> <!--A tecla ALT precionada, pode selecionar com o mouses varias tags de uma vez só-->
+            <li>Nos passos de Jesus</li>
+            <li>O discipulo do Espírito Santo</li>
+        </ul>
+        <li>Bispo Renato</li>
+        <ul type="square">
+            <li>O perfil do jovem de Deus</li>
+            <li>A terra vai pegar fogo</li>
+        </ul>
+        <li>Dn. Cristiane</li>
+        <ul type="square">
+            <li>Namoro Blindado</li>
+            <ul type="circle">
+                <li>Renato Cardoso</li>
+                <li>Cristiane Cardoso</li>
+            </ul>
+            <li>Melhor que comprar sapatos</li>
+        </ul>
+    </ol>
+    <h2>Lista de Definições</h2>
+    <dl> <!--Listas de definições-->
+        <dt>HMTL</dt> <!--Termo-->
+        <dd>Liguaguem de marcação para criação do conteúdo de um site</dd> <!--Descrição-->
+        <dt>CSS</dt>
+        <dd>Liguagem de marcação para a criação do design de um site</dd>
+        <dt>JavaScript</dt>
+        <dd>Liguagem de programação para a criação de interatividade de um site</dd>
+    </dl>
+</body>
+</html>
